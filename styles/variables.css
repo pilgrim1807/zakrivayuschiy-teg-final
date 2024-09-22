@@ -1,0 +1,19 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --header-font-family: "PressStart2P", fantasy;
+  --main-font-family: "inter", sans-serif;
+  --main-text-color: #000000;
+  --main-border-color: #000000;
+  --main-bg-color: #ffff;
+  --text-clr-change: #ffff;
+  --theme-pattern: repeating-linear-gradient( to left, #d3d3d360 0 2px, transparent 2px 4px),
+  repeating-linear-gradient(to bottom,  #d3d3d360 0 2px, transparent 2px 4px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a); 
+  --title-text-size: 18px;
+  --main-text-size: 14px;
+  --disabled-text-color: rgba(0, 0, 0, 0.6);
+  --main-gap: 10px;
+  --normal-weight: 400;
+  --bold-weight: 700;
+  --max-width: 700px;
+}
